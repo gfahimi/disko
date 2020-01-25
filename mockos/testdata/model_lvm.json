@@ -1,0 +1,34 @@
+{
+  "vgs": {
+    "fileserver": {
+      "name": "fileserver",
+      "size": 214748364800,
+      "volumes": {
+        "dev/fileserver/share": {
+          "name":  "dev/fileserver/share",
+          "size": 214748364800,
+          "type": "0",
+          "encrypted": true
+        },
+        "dev/fileserver/backup": {
+          "name":  "dev/fileserver/backup",
+          "size": 214748364800,
+          "type": "1",
+          "encrypted": false
+        }
+      },
+      "freeSpace": "152",
+      "pvs": {
+        "dev/sda1" : {"name": "dev/sda1","path": "test/dev", "size":  214748364800, "freeSize":  214748364800},
+        "dev/sdb1": {"name": "dev/sdb1","path": "test/dev", "size":  214748364800, "freeSize":  214748364800},
+        "dev/sdc1": {"name": "dev/sdc1","path": "test/dev", "size":  214748364800, "freeSize":  214748364800}
+      }
+    }
+  },
+  "pvs" : {
+    "dev/sda1" : {"name": "dev/sda1","path": "test/dev", "size":  214748364800, "freeSize":  214748364800},
+    "dev/sdb1": {"name": "dev/sdb1","path": "test/dev", "size":  214748364800, "freeSize":  214748364800},
+    "dev/sdd1": {"name": "dev/sdd1","path": "test/dev", "size":  214748364800, "freeSize":  214748364800},
+    "dev/sdc1": {"name": "dev/sdc1","path": "test/dev", "size":  2638827906662, "freeSize":  2638827906662}
+  }
+}
