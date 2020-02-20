@@ -261,10 +261,11 @@ func (lvm *mockLVM) CreateLV(vgName string, name string, size uint64,
 	}
 
 	lv := disko.LV{
-		Name:      name,
-		Size:      size,
-		Type:      lvType,
-		Encrypted: false,
+		Name:      	name,
+		Size:      	size,
+		Type:      	lvType,
+		VGName:		vgName,
+		Encrypted: 	false,
 	}
 
 	// Add the lv to vg and discount the freespace
